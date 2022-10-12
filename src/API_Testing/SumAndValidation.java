@@ -28,4 +28,10 @@ public class SumAndValidation {
 		System.out.println("Total is :"+sum);
 		Assert.assertEquals(js.getInt("dashboard.purchaseAmount"), sum, "total amount ");
 		System.out.println("You did a good job");
-}}
+}
+	
+@Test
+public void display() {
+	System.out.println("JUST TO TEST BRANCH IN GIT");
+}
+}
